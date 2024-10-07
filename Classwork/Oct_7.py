@@ -11,5 +11,15 @@ for elem in vars:
 
 pets: list[str] = ["Louie", "Bo", "Bear"]
 
-for elem in pets:
-    print(f"Good boy, {elem}!")
+for animal in pets:
+    print(f"Good boy, {animal}!")
+
+
+for index in range(0, len(pets)):
+    print(pets[index])
+
+
+names: list[str] = ["Alyssa", "Janet", "Vanessa"]
+
+for person in range(0, len(names)):
+    print(f"{person}: {names[person]}")
